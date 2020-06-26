@@ -1,0 +1,11 @@
+{
+	"/server": {
+		"target": "http://springboot-speaker-itinerary.herokuapp.com",
+		"secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/server" : ""
+    }
+	}
+}
